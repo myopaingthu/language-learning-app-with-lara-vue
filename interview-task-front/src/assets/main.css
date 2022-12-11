@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+/* pc */
+body {
+  max-width: 1920px;
+  margin: 0 auto;
+  background-color: #FF6700;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  line-height: 28.13px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.pc {
+  display: block;
+}
+
+.sp {
+  display: none;
+}
+
+.err-msg {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #FF6700;
+}
+
+/* ipad */
+@media screen and (max-width: 1280px) and (min-width: 381px) {
+  body {
+    font-size: 20px;
+    line-height: 23.44px;
+  }
+
+  .pc {
+    display: block;
+  }
+
+  .sp {
+    display: none;
+  }
+
+  .err-msg {
+    font-size: 14px;
+  }
+
+}
+
+/* smart phone */
+@media screen and (max-width: 380px) {
+  body {
+    font-size: 16px;
+    line-height: 18.75px;
+  }
+
+  .pc {
+    display: none;
+  }
+
+  .sp {
+    display: block;
+  }
+
+  .err-msg {
+    font-size: 12px;
+  }
+
+}

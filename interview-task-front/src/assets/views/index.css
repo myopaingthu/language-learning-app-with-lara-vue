@@ -1,0 +1,208 @@
+/* pc */
+.card {
+  width: 1280px;
+  height: 827px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0px 8px rgba(0, 0, 0, 0.16);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.card-cnt {
+  padding: 25px 0 50px 0;
+  margin: 0 auto;
+  width: 700px;
+}
+
+.que-img {
+  width: 100%;
+  height: 464px;
+  margin-bottom: 25px;
+}
+
+.que-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.que-txt {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.ans-input {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 50px;
+}
+
+.ans-input input {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: 0 0 10px rgba(255, 103, 0, 0.3);
+  box-shadow: 0 0 10px rgba(255, 103, 0, 0.3);
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  line-height: 28.13px;
+  text-align: center;
+}
+
+.submit {
+  width: 324px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.submit button {
+  width: 100%;
+  height: 100%;
+  background-color: #ff6700;
+  border-radius: 10px;
+  border: none;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  line-height: 28.13px;
+  color: #ffffff;
+}
+
+.ans-form {
+  margin-bottom: 27px;
+}
+
+.result-blk {
+  width: 340px;
+  margin: 0 auto;
+}
+
+.right svg,
+.remain svg {
+  color: #ff6700;
+  margin-right: 12px;
+}
+
+.right span,
+.remain span {
+  font-size: 20px;
+  color: #ff6700;
+  font-weight: 300;
+  line-height: 23.44px;
+}
+
+/* ipad */
+@media screen and (max-width: 1280px) and (min-width: 381px) {
+  .card {
+    width: 95%;
+    max-width: 1180px;
+    height: 600px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+  }
+
+  .card-cnt {
+    padding: 50px 0 35px 0;
+    width: 55%;
+    max-width: 500px;
+  }
+
+  .que-img {
+    max-width: 400px;
+    height: 265.14px;
+    margin: 0 auto;
+    margin-bottom: 19.86px;
+  }
+
+  .que-txt {
+    margin-bottom: 20px;
+  }
+
+  .ans-input {
+    height: 40px;
+    margin-bottom: 50px;
+  }
+
+  .ans-input input,
+  .submit button {
+    font-size: 20px;
+    line-height: 23.44px;
+  }
+
+  .submit {
+    width: 50%;
+    max-width: 250px;
+    height: 50px;
+  }
+
+  .result-blk {
+    width: 75%;
+  }
+
+  .right span,
+  .remain span {
+    font-size: 16px;
+    line-height: 18.75px;
+  }
+}
+
+/* smart phone */
+@media screen and (max-width: 380px) {
+  .card {
+    width: 95%;
+    max-width: 348px;
+    height: 454px;
+    margin-bottom: 43px;
+  }
+
+  .card-cnt {
+    padding: 23px 0 20px 0;
+    width: 90%;
+    max-width: 308px;
+  }
+
+  .result-blk {
+    width: 100%;
+    margin-bottom: 22px;
+  }
+
+  .right span,
+  .remain span {
+    font-size: 16px;
+    line-height: 18.75px;
+  }
+
+  .que-img {
+    margin-bottom: 20px;
+    height: 205px;
+  }
+
+  .que-txt {
+    margin-bottom: 20px;
+  }
+
+  .ans-input {
+    width: 70%;
+    max-width: 208px;
+    height: 36px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  .ans-input input,
+  .submit button {
+    font-size: 16px;
+    line-height: 18.75px;
+  }
+
+  .submit {
+    width: 70%;
+    max-width: 208px;
+    height: 40px;
+  }
+}
